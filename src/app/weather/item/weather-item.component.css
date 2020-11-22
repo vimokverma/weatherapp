@@ -1,0 +1,55 @@
+
+.col-1{
+    display:inline-block;
+    color: white;
+   }
+
+.col-1 h3{
+    margin:0 0 10px;
+    padding:0;
+    font-size:20px;
+    color: white;}
+.col-2{
+    display:inline-block;
+    width:20%;
+    vertical-align:top;
+    text-align:right;
+    }
+
+.tooltip{position:fixed;
+    padding:6px;
+    color: white;
+    font-size:14px;
+    font-style:italic;
+    background-color:#212121;
+    border-radius:10px;
+    border:1px solid #999;
+    text-align:left;}
+.temperature{
+    font-size:20px;
+    cursor:pointer;}
+
+.weather-element{
+    position:relative;
+    margin-top: 2%;
+    border-radius: 10px;
+    box-shadow:1px 1px 6px #ccc;
+    padding: 30px;
+    margin:5px 0;
+    background-color: #212121;
+    float: left;
+    }
+.weather-element:hover{
+    background-color: #16A596;
+}
+.weather-element .delete{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 1em;
+    color:white;
+    cursor: pointer;
+}
+.weather-element .delete:hover{
+    color:#000000
+}
